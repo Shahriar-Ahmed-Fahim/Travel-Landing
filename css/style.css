@@ -42,7 +42,7 @@ p {
     line-height: 1.2;
 }
 
-p{
+p {
     color: var(--black-color);
     font-size: 20px;
     font-weight: 400;
@@ -54,14 +54,14 @@ p{
     margin: 0 auto;
 }
 
-.sub-heading{
+.sub-heading {
     color: var(--black-color);
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.heading{
+.heading {
     color: var(--primary-color);
     font-size: 55px;
     font-weight: 700;
@@ -73,26 +73,27 @@ p{
     background: var(--primary-color);
 }
 
-.bg-secondary{
+.bg-secondary {
     background-color: var(--secondary-color);
 }
-.bg-white{
+
+.bg-white {
     background-color: var(--white-color);
 }
 
-.text-white{
+.text-white {
     color: var(--white-color);
 }
 
-.text-primary{
+.text-primary {
     color: var(--primary-color);
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-bold{
+.text-bold {
     font-weight: 700;
 }
 
@@ -100,16 +101,20 @@ p{
 .m-auto {
     margin: 0 auto;
 }
-.h-100{
+
+.h-100 {
     height: 100vh;
 }
-.m-h-100{
+
+.m-h-100 {
     min-height: 100vh;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
 
@@ -123,7 +128,7 @@ p{
     flex-direction: column;
 }
 
-.row-reverse{
+.row-reverse {
     flex-direction: row-reverse;
 }
 
@@ -131,10 +136,11 @@ p{
     justify-content: center;
 }
 
-.justify-end{
+.justify-end {
     justify-content: flex-end;
 }
-.justify-space-between{
+
+.justify-space-between {
     justify-content: space-between;
 }
 
@@ -197,39 +203,48 @@ p{
 /* ===============
 NavBar CSS
 =============== */
-header{
+header {
     margin-top: 36px;
     margin-bottom: -102px;
     position: relative;
     z-index: 2;
 }
-nav{
+
+nav {
     padding: 15px 0;
     gap: 30px;
 }
-nav .logo, nav .icons{
+
+nav .logo,
+nav .icons {
     width: 130px;
 }
-nav .logo img{
+
+nav .logo img {
     width: 127px;
 }
-nav .menu{
+
+nav .menu {
     flex-grow: 1;
 }
-nav .menu ul{
+
+nav .menu ul {
     gap: 36px;
 }
-nav .menu ul li a{
+
+nav .menu ul li a {
     color: var(--primary-color);
     font-size: 15px;
     font-weight: 500;
     padding: 0 6px;
     text-transform: uppercase;
 }
-nav .icons{
+
+nav .icons {
     column-gap: 7.5px;
 }
-nav .icons i{
+
+nav .icons i {
     width: 22px;
     height: 22px;
     text-align: center;
@@ -239,37 +254,44 @@ nav .icons i{
     border: 1px solid rgba(3, 110, 138, 0.6);
     border-radius: 50%;
 }
+
 /* ===============
 Banner CSS
 =============== */
-#banner{
+#banner {
     padding: 257px 0 200px;
     background: url('../images/banner_bg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#banner .heading{
+
+#banner .heading {
     font-size: 89px;
     line-height: 1.12;
 }
-#banner .container{
+
+#banner .container {
     width: 784px;
 }
-#banner p{
+
+#banner p {
     margin: 24px 0 45px;
 }
-#banner .banner-search{
+
+#banner .banner-search {
     gap: 15px;
 }
-#banner .search-field{
+
+#banner .search-field {
     width: 428px;
     border: 1px solid var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     position: relative;
 }
-#banner .search-field i{
+
+#banner .search-field i {
     font-size: 28px;
     color: var(--primary-color);
     position: absolute;
@@ -277,17 +299,20 @@ Banner CSS
     left: 23.5px;
     transform: translateY(-50%);
 }
-#banner .search-field input{
+
+#banner .search-field input {
     width: 100%;
     outline: none;
     border: none;
     padding: 15px 20px 17px 95px;
     font-size: 20px;
 }
-#banner .search-field input::placeholder{
+
+#banner .search-field input::placeholder {
     color: var(--primary-color);
 }
-#banner .banner-search > i{
+
+#banner .banner-search>i {
     width: 58px;
     height: 58px;
     text-align: center;
@@ -300,8 +325,110 @@ Banner CSS
 }
 
 
+/* ---Featured Destination Section--- */
+#featured-destination {
+    margin-top: 147px;
+}
 
+#featured-destination .section-info {
+    max-width: 560px;
+}
 
+#featured-destination .destination-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#featured-destination .section-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
 
+#featured-destination .section-title {
+    font-size: 55px;
+    font-weight: 700;
+    color: #036E8A;
+    margin-top: 31px;
+}
 
+#featured-destination .section-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#featured-destination .section-video {
+    position: relative;
+}
+
+#featured-destination .play-button {
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#featured-destination .play-button i {
+    font-size: 20px;
+    color: #036E8A;
+}
+
+#featured-destination .travel-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #036E8A;
+    border-radius: 8px;
+    padding: 54px 64px 66px 64px;
+    margin-top: 147px;
+}
+
+.travel-location .one h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #036E8A;
+    margin-bottom: 14px;
+}
+
+.travel-location .one i {
+    color: #FF8000;
+}
+
+.travel-location .one i:last-child {
+    opacity: 0.5;
+}
+
+.travel-location .two {
+    width: 3px;
+    height: 96px;
+    background-color: #FF8000;
+}
+
+.travel-location .three h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.travel-location .three h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #036E8A;
+}
+
+.travel-location .four button {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    background: #FF8000;
+    border: 0;
+    border-radius: 10px;
+    padding: 16px 45px;
+}
