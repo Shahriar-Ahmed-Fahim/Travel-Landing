@@ -894,3 +894,109 @@ Counter CSS
     margin-top: 21.5px;
     line-height: 27px;
 }
+/* ===============
+CTA CSS
+=============== */
+#cta{
+    padding-top: 155px;
+    padding-bottom: 100px;
+}
+#cta .container{
+    padding: 37px 51px;
+    border-radius: 30px;
+    background-image: url('../images/shape2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cta .container .wrapper{
+    padding: 47px 127px 50px;
+}
+#cta .container .wrapper .heading{
+    font-size: 70px;
+}
+#cta .container .wrapper hr:first-of-type{
+    width: 778px;
+    height: 3px;
+    background: var(--white-color);
+    margin: 61px 0 74.5px;
+}
+#cta .container .wrapper p{
+    font-size: 30px;
+    text-align: center;
+}
+#cta .container .wrapper hr:last-of-type{
+    width: 411px;
+    height: 3px;
+    background: var(--white-color);
+    margin: 59px 0 44px;
+}
+#cta a.btn{
+    display: inline-block;
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 21px 67px;
+    border-radius: 15px;
+    background: var(--secondary-color);
+}
+/* ===============
+Footer CSS
+=============== */
+footer{
+    padding-top: 20px;
+}
+footer > .container:first-of-type > div{
+    width: fit-content;
+    padding-bottom: 98.45px;
+}
+footer div h4{
+    color: var(--primary-color);
+    font-size: 24.917px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer div hr{
+    width: 142px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 32.5px 0 36.45px;
+}
+footer > .container div ul li{
+    line-height: 1.2;
+}
+footer div ul li a{
+    color: var(--black-color2);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+footer > .container ul li:not(:last-child){
+    margin-bottom: 25px;
+}
+footer .w-100 .container{
+    padding: 41.5px 0;
+    gap: 82px;
+}
+footer .w-100 .container .copy_right, footer .w-100 .container .links{
+    width: 450px;
+}
+footer .w-100 .container .copy_right p, footer .w-100 .container .links ul li a{
+    color: var(--white-color);
+    font-size: 18px;
+}
+footer .w-100 .container .links ul{
+    gap: 3px;
+}
+footer .icons{
+    column-gap: 7.5px;
+}
+footer .icons i{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: var(--white-color);
+    font-size: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
