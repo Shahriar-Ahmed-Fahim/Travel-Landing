@@ -576,3 +576,118 @@ Banner CSS
 }
 
 /* ====================package end here=============== */
+
+/* ===============
+Destination2 CSS
+=============== */
+#destination2{
+    padding: 69px 0;
+    background-image: url('../images/shape2.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 55%;;
+}
+
+#destination2 .image{
+    width: 508px;
+}
+#destination2 .content{
+    width: 561px;
+}
+#destination2 .content .heading{
+    margin: 31px 0 30px;
+}
+/* ===============
+Destination3 CSS
+=============== */
+#destination3{
+    padding: 111px 0 112px;
+    /* overflow: hidden; */
+}
+#destination3 > .container{
+    row-gap: 106px;
+}
+#destination3 .heading-wrapper{
+    width: 830px;
+    row-gap: 23px;
+}
+#destination3 h2.heading{
+    font-size: 60px;
+}
+#destination3 .locations{
+    column-gap: 16px;
+}
+#destination3 .location-item-wrapper{
+    row-gap: 17px;
+}
+#destination3 .location-item-wrapper:nth-child(even){
+    flex-direction: column-reverse;
+}
+#destination3 .location-item-wrapper .location-item{
+    width: 275px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+#destination3 .location-item-wrapper .location-item:first-child{
+    height: 407px;
+}
+#destination3 .location-item-wrapper .location-item:last-child{
+    height: 266px;
+}
+#destination3 .location-item-wrapper .location-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#destination3 .location-item-wrapper .location-item .overlay{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+}
+#destination3 .location-item-wrapper .location-item .overlay h3{
+    color: #707070;
+    font-size: 25px;
+    font-weight: 700;
+}
+#destination3 .location-item-wrapper .location-item .overlay p{
+    color: #707070;
+}
+#destination3 .bg_img_container{
+    position: relative;
+}
+#destination3 .bg_img_container img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+/* ===============
+Counter CSS
+=============== */
+#counter{
+    position: relative;
+    z-index: 2;
+    padding: 91px 0 120px;
+    background-image: url('../images/counter-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#counter .container .counter-box{
+    width: fit-content;
+}
+#counter .container .counter-box .heading{
+    color: #707070;
+}
+#counter .container .counter-box p{
+    color: #707070;
+    font-size: 30px;
+    text-transform: uppercase;
+}
